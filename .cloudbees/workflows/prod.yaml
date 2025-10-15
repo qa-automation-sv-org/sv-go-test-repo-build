@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
-          labels: sv-go-test-repo
+          labels: sv-go-test-repo-1
           artifact-id: 4271e62b-efce-45c2-9d06-d85c81e84da9
           target-environment: QA
